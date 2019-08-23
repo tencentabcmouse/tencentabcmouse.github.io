@@ -124,12 +124,7 @@ body {
 }
 .outer {
   margin: 0 auto;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: box;
-  display: flex;
+  background: #eee;
 }
 .outer:before,
 .outer:after {
@@ -181,6 +176,7 @@ body {
 @media screen and (min-width: 768px) {
   #main {
     width: 55%;
+    margin: 0 auto;
   }
 }
 .article-date,
