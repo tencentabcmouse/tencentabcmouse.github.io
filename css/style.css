@@ -423,11 +423,6 @@ body {
 #main-nav-toggle:before {
   content: "\f0c9";
 }
-@media screen and (max-width: 767px) {
-  #main-nav-toggle {
-    display: block;
-  }
-}
 #sub-nav {
   float: right;
   margin-right: -15px;
@@ -947,7 +942,6 @@ a.article-title:hover {
 #comments a {
   color: #258fb8;
 }
-
 .archives-wrap {
   margin: 50px 0;
 }
